@@ -40,7 +40,6 @@ RSpec.describe 'The Plot Index page' do
   end
 
   it 'displays all plant names belonging to each plot' do
-    save_and_open_page
     expect(page).to have_content(@plant_1.name)
     expect(page).to have_content(@plant_2.name)
     expect(page).to have_content(@plant_3.name)
