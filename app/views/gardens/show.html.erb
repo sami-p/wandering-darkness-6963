@@ -6,3 +6,6 @@
       <br>
     <% end %>
   <% end %>
+<h2> <% @garden.less_than_100.each do |plant| %> </h2>
+  <%= plant.name %>
+<% end %>
